@@ -20,7 +20,6 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
-    
   </head>
 
   <body>
@@ -29,38 +28,36 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
       
-    
+  
     </header>
-    <div class="container">
+    <div class="container" >
       <!-- Timeblocks go here -->
-    
-      <div class="hour" >
-      <p id="time-block">8am</p>
-      <p id="text area"> </p>
-      <button>save</button>
-      <br>
-      <p id="time-block">9am</p>
-      <button>save</button>
-      <br>
-      <p id="time-block">10am</p>
-      <button>save</button>
-      <p id="time-block">11am</p>
-      <button>save</button>
-      <p id="time-block">12am</p>
-      <button>save</button>
-      <p id="time-block">1pm</p>
-      <button>save</button>
-      <p id="time-block">2pm</p>
-      <button>save</button>
-      <p id="time-block">3pm</p>
-      <button>save</button>
 
-    </div>
+      <div class="hour " id="8am-timeblock">
+        <p>8am</p>
+        <textarea id="8amEventText" placeholder="Event..."></textarea>
+        <button onclick="saveEvent(this);">save</button>
+      </div>
+      <div class="hour" id="9am-timeblock">
+        <p>9am</p>
+        <textarea id="9amEventText" placeholder="Event..."></textarea>
+        <button onclick="saveEvent(this);">save</button>
+      </div>
+      <div class="hour" id="10am-timeblock">
+        <p>10am</p>
+        <textarea id="10amEventText" placeholder="Event..."></textarea>
+        <button onclick="saveEvent(this);">save</button>
+      </div>
+      <div class="hour" id="11am-timeblock">
+        <p>11am</p>
+        <textarea id="11amEventText" placeholder="Event..."></textarea>
+        <button onclick="saveEvent(this);">save</button>
+      </div>
       
-      
     </div>
-    
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"> </script>
   </body>
 </html>
