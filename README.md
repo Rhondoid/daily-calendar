@@ -12,12 +12,13 @@ I learned to write blocks of code to make a type of form document.
 
 Simply add text to the open text area that you wish to keep track of.
 
+![image](https://user-images.githubusercontent.com/110504360/198487177-d7c25fdc-199a-4999-b9e1-b3b585969c36.png)
 
 
 
 ## Credits
 
-Aden Jessen collaborated on this with me. 
+I received help with a tutor from Tutors.com. https://github.com/adenjessee
 
 ## License
 
